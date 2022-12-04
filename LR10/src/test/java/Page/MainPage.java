@@ -57,7 +57,7 @@ public class MainPage {
     public MainPage SortItems()
     {
         Actions builder = new Actions(driver);
-        new WebDriverWait(driver, Duration.ofSeconds(25)).until(ExpectedConditions.visibilityOf(FilterButton));
+        new WebDriverWait(driver, Duration.ofSeconds(100)).until(ExpectedConditions.visibilityOf(FilterButton));
         builder.moveToElement(FilterButton).click().build().perform();
         new WebDriverWait(driver, Duration.ofSeconds(25)).until(ExpectedConditions.elementToBeClickable(FilterByHighPrice));
         FilterByHighPrice.click();

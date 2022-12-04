@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: Test.MusicMarketSecondTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 152.145 s - in Test.MusicMarketSecondTest
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 179.888 s <<< FAILURE! - in Test.MusicMarketSecondTest
+AllTogether  Time elapsed: 59.436 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79b977709d221ad5fc20c8ddb58bf0d0, clickElement {id=6532c454-dc7f-4d03-b698-1a84d71d0fd5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49725}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49725/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (79b977709d221ad5fc20c8ddb58bf0d0)] -> xpath: /html/body/div[1]/div[4]/div[3]/div/div[3]/div/div[1]/div/div[2]/div/div[3]/div[1]/div[1]/div/form/div/div[2]/div[1]/a]
+Session ID: 79b977709d221ad5fc20c8ddb58bf0d0
+	at Test.MusicMarketSecondTest.AllTogether(MusicMarketSecondTest.java:48)
+

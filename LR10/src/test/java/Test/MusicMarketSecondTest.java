@@ -44,7 +44,7 @@ public class MusicMarketSecondTest {
         MainPage.OpenPage();
         MainPage.SearchFor("Струны для электрогитары");
         MainPage.SortItems();
-        Thread.sleep(2000);
+//        Thread.sleep(5000);
         driver.findElement(By.xpath("/html/body/div[1]/div[4]/div[3]/div/div[3]/div/div[1]/div/div[2]/div/div[3]/div[1]/div[1]/div/form/div/div[2]/div[1]/a")).click();
     }
 
